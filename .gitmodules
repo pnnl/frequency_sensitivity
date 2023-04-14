@@ -1,0 +1,6 @@
+[submodule "learning_with_noise"]
+	path = learning_with_noise
+	url = https://github.com/mbaradad/learning_with_noise.git
+[submodule "pytorch-vgg-cifar10"]
+	path = pytorch-vgg-cifar10
+	url = https://github.com/chengyangfu/pytorch-vgg-cifar10.git
