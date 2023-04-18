@@ -27,6 +27,24 @@ conda env create --file=freq_sens.yaml
 Tables of training hyperparameters and model accuracies
 can be found in `./model_details`.
 
+## Contribution statement
+
+This repository was extracted from a larger research codebase to which [Eleanor
+Byler](https://github.com/nell-byler) and [Elise
+Bishoff](https://github.com/ebishoff) made many contributions. In particular,
+[Eleanor Byler](https://github.com/nell-byler) wrote the first version of
+`training.py` and both [Charles Godfrey](https://github.com/godfrey-cw) and
+[Elise Bishoff](https://github.com/ebishoff) made further modifications, and
+`datasets.py` was a collaborative effort of [Charles
+Godfrey](https://github.com/godfrey-cw) and [Eleanor
+Byler](https://github.com/nell-byler). The procedural generation (using the
+wavelet marginal model) and unsupervised training of AlexNets using
+`learning_with_noise` was implemented by [Davis
+Brown](https://github.com/davisrbr). The remainder of the code was written by
+[Charles Godfrey](https://github.com/godfrey-cw), although it should be noted
+that all authors listed in the citation below contributed substantially in the
+form of experiment ideas, feedback, suggestions and debugging advice.
+
 ## Citation
 
 If you find this repository useful, please cite:
